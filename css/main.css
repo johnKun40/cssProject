@@ -48,7 +48,7 @@ ul {
     color: #E5E7EB;
     gap: 50px;
     font-size: 18px;
-    font-family: "Roboto-light", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .hero {
@@ -67,7 +67,7 @@ ul {
 }
 
 .hero-text {
-    font-family: "Roboto-thin", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -83,7 +83,7 @@ ul {
 }
 
 .hero-two {
-    font-family: "Roboto-thin", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
     background-color: #E5E7EB;
     width: 1200px;
@@ -131,7 +131,7 @@ ul {
 }
 
 .box-text {
-    font-family: "Roboto-thin", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 14px;
     text-align: center;
 }
@@ -174,9 +174,8 @@ ul {
     background-color: #3882F6;
     color: #E5E7EB;
     display: flex;
-    padding: 40px;
+    padding: 40px 100px;
     justify-content: space-between;
-    max-width: 70%;
     border-radius: 10px;
     gap: 200px;
 }
@@ -195,4 +194,17 @@ ul {
     border: 1px solid #E5E7EB;
     border-radius: 5px;
     padding: 0 30px;
+}
+
+.footer {
+    max-width: 100%;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+    font-family: "Roboto", sans-serif;
+    padding: 20px;
 }
