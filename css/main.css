@@ -153,10 +153,46 @@ ul {
     display: flex;
     font-size: 36px;
     max-width: 850px;
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 .quote-two {
-    float: right;
+    margin-left: 600px;
     font-family: "Roboto-black", sans-serif;
+    padding-bottom: 100px;
+}
+
+.action {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.action-container {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    max-width: 70%;
+    border-radius: 10px;
+    gap: 200px;
+}
+
+.action-text {
+    font-family: "Roboto-black", sans-serif;
+}
+
+.action-subtext {
+    font-family: "Roboto", sans-serif;
+}
+
+.action-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    padding: 0 30px;
 }
